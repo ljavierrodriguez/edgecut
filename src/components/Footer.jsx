@@ -1,10 +1,10 @@
 import React from 'react'
 
 const Footer = () => {
-  return (
-    <>
-    {/* footer section start */}
-    <div className="footer_section layout_padding">
+    return (
+        <>
+            {/* footer section start */}
+            <div className="footer_section layout_padding">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-3 col-sm-6">
@@ -84,8 +84,8 @@ const Footer = () => {
                 </div>
             </div>
             {/* copyright section end */}
-    </>
-  )
+        </>
+    )
 }
 
 export default Footer

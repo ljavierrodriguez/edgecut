@@ -7,6 +7,7 @@ import Contact from './pages/Contact'
 import Menu from './components/Menu'
 import Footer from './components/Footer'
 import ServiceDetail from './pages/ServiceDetail'
+import NotFound from './pages/NotFound'
 
 const Layout = () => {
     return (
@@ -19,6 +20,7 @@ const Layout = () => {
                 <Route path='/contact' element={<Contact />} />
                 <Route path='/about' element={<About />} />
                 <Route path='/' element={<Home />} />
+                <Route path='*' element={<NotFound />} />
             </Routes>
             <Footer />
         </BrowserRouter>
